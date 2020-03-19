@@ -40,7 +40,7 @@ class Company {
 }
 
 
-// 
+// set api address here
 app.get("/api/users/new", (req, res) => {
     const user = new User();
     return res.json(user);
